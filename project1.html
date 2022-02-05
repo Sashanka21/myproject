@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Landing Page</title>
+</head>
+<body>
+    <section class="showcase ">
+        <header>
+
+            <h2 class="logo">Travel With Us</h2>
+            <div class="toggle "></div>
+        </header>
+        <video src="production ID_4782367.mp4" muted loop autoplay></video>
+        <div class="overplay"></div>
+
+        <div class="text">
+            <h2>Never Stop Exploring</h2>
+            <h3>the world</h3>
+            <p>“Travel isn’t always pretty. It isn’t always comfortable. Sometimes it hurts, it even breaks your heart. But that’s okay. The journey changes you; it should change you. It leaves marks on your memory, on your consciousness, on your heart, and on your body. You take something with you. Hopefully, you leave something good behind.” – Anthony Bourdain </p>
+            <a href="#">Explore</a>
+
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="facebook.png" alt="Facebook" height="60" width="60"</a></li>
+            <li><a href="#"><img src="twitter.png" alt="Twitter" height="60" weight="60" </a></li>
+            <li><a href="#"><img src="instagram.png" alt="Instagram" height="60" weight="60"</a></li>
+
+
+
+        </ul>
+
+
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href ="#">Home</a></Li>
+                <li><a href ="#">Blog</a></Li>  
+                    <li><a href ="#">News</a></Li>
+                        <li><a href ="#">Places</a></Li>
+                            <li><a href ="#">Contact</a></Li>
+
+        </ul>
+
+
+
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+
+    </script>
+
+    
+</body>
+</html>
